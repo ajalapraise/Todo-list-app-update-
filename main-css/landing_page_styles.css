@@ -1,0 +1,94 @@
+.body{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    width: 100%;
+   position: fixed;
+   z-index: 1;
+   margin-top: -100px;
+ } 
+.navbar-expand-lg .navbar-collapse {
+    display: flex!important;
+    justify-content: space-evenly;
+}
+
+.sign-up-btn{
+    color: white;
+    background-color: rgb(255, 69, 0);
+    border: none;
+    border-radius: 9px;
+    padding: 7px 20px;
+}
+.sign-up-btn:hover{
+    color: black;
+    background: white;
+    border: thin solid   rgb(255, 69, 0);
+}
+.container{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    margin-top: 90px;
+}
+
+.p-2{
+color: white;
+background-color: rgb(255, 69, 0);
+border: none;
+border-radius: 9px;
+padding: 7px 20px;
+}
+.red{
+    text-align: center;
+    padding: 30px;
+}
+.two{
+    margin-top: 100px;
+    padding: 10px;
+}
+.blue{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text{
+    padding: 50px;
+    margin-top:30px;
+}
+
+.footer{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+}
+.foot{
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    color: white;
+    /* background-color: black; */
+}
+.foo{
+    width: 50%;
+    height: 30vh;
+
+}
+table{
+    cursor: pointer;
+
+}
+
+
+.all{
+    font-style: italic;
+    font-weight: bolder;
+    width: 100%;
+    background-color:  rgb(255, 69, 0); 
+    height: 4vh;
+    margin-top: -25px;
+    text-align: center;
+    
+}
