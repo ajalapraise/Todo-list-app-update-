@@ -355,3 +355,92 @@ aside img{
     color: rgb(229, 18, 18);
 }
 
+<<<<<<< HEAD
+=======
+.todos{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: var(--dark);
+}
+
+.todos a{
+    text-decoration: none;
+    color: var(--dark);
+    padding: 0 5px;
+}
+
+.todos li{
+    border-top-style: none;
+    border-bottom-style: groove;
+    border-right-style: none;
+    border-left-style: none;
+    margin-bottom: 5px;
+    list-style: none;
+}
+
+.todos li h3{
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.todos li h5, .task-icons{
+    display: inline;
+    font-size: 12px;
+    margin-left: 0;
+}
+
+.task-icons{
+    color: var(--dark);
+    margin-left: 40%;
+}
+
+.task-icons a{
+    margin-right: 3px;
+}
+
+.task-icons i{
+    font-size: 15px;
+}
+
+.todos-btns{
+    display: flex;
+    margin-top: 5px;
+    width: 100%;
+    padding-right: 25px;
+}
+
+.todos-btns1{
+    display: flex;
+    color: var(--dark);
+}
+
+.todos-btns1 i{
+    margin-right: 3px;
+    color: #FFA500;
+}
+
+.todos-btns1 h6{
+    font-size: 12px;
+    font-weight: 600;
+    margin-right: 8px;
+    width: 50px;
+}
+
+.todos-btns2{
+    display: flex;
+    margin-bottom: 10px;
+    font-family: 10px;
+    margin-left: 74%;
+    width: 50%;
+    color: var(--dark);
+}
+
+.todos-btns2 h6{
+    margin: 0 auto;
+    font-size: 12px;
+}
+
+.todos-btns2 i{
+    margin-left: 10px;
+    font-size: 15px;
+}
+>>>>>>> 4504fa1732de03fdc860b406c81dfc7596e89425

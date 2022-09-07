@@ -6,6 +6,7 @@
 img{
     width: 70%;
 }
+<<<<<<< HEAD
 .activ{
     color: black;
     background: white;
@@ -23,12 +24,23 @@ img{
     border: none;   
     outline: thin  solid  rgb(255, 69, 0);
     border-radius: 9px;
+=======
+.sign-btn{
+    color: black;
+    background: white;
+    border: none;   
+>>>>>>> 4504fa1732de03fdc860b406c81dfc7596e89425
 }
 .sign-btn:hover{
     color: white;
     background-color: rgb(255, 69, 0);
     border-radius: 9px;
+<<<<<<< HEAD
     padding: 7px 30px;
+=======
+    padding: 7px 20px;
+    outline: thin  solid white;
+>>>>>>> 4504fa1732de03fdc860b406c81dfc7596e89425
 }
 .sign-up-btn{
     color: white;
@@ -68,6 +80,7 @@ img{
 }
 table{
     cursor: pointer;
+<<<<<<< HEAD
 }
 .contain a{
 	border: 1px solid #DDDDDD;
@@ -85,4 +98,6 @@ table{
 	transition: all ;
     background-color: white;
 	
+=======
+>>>>>>> 4504fa1732de03fdc860b406c81dfc7596e89425
 }
