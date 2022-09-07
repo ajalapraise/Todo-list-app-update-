@@ -1,0 +1,59 @@
+.navbar{
+ width: 90%; 
+   position: fixed;
+   z-index: 1; 
+ }  
+img{
+    width: 70%;
+}
+.sign-btn{
+    color: black;
+    background: white;
+    border: none;   
+}
+.sign-btn:hover{
+    color: white;
+    background-color: rgb(255, 69, 0);
+    border-radius: 9px;
+    padding: 7px 20px;
+    outline: thin  solid white;
+}
+.sign-up-btn{
+    color: white;
+    background-color: rgb(255, 69, 0);
+    border: none;
+    border-radius: 9px;
+    padding: 7px 20px;
+}
+.sign-up-btn:hover{
+    color: black;
+    background: white;
+    outline: thin  solid rgb(255, 69, 0);
+}
+
+.head{
+    transform: translateY(160px);
+}
+.body{
+    transform: translateY(100px);
+  margin-top: 200px;
+}
+
+.footer{
+    transform: translateY(100px);
+    margin-top: 200px;
+    color: white;
+}
+.foo{
+    display: flex;
+    justify-content: flex-end;
+}
+.items{
+        font-style: italic;
+        font-weight: bolder;
+        background-color:  rgb(255, 69, 0);
+        text-align: center;
+}
+table{
+    cursor: pointer;
+}
