@@ -5,17 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hi! Reset your password.</title>
+    <link href="/css2/all.css" rel="stylesheet">
     <link rel="stylesheet" href="/main-css/other_pages_styles.css">
+    <link rel="stylesheet" href="/css/bootstrap.css">
 </head>
 <body>
-    <Header>
+    <!-- <Header>
         <div class="logo">
             <div class="logo-image">
-                <img src="/IMGS/logo.png" alt="Todo logo">
+                <img src="./IMGS/logo.png" alt="Todo logo">
             </div>
 
             <div class="logo-text">
-                <a href="/pages/index.html" target="_self"><h3>Just-Do-It</h3></a>
+                <a href="./index.html" target="_self"><h3>Just-Do-It</h3></a>
             </div>
         </div>
     </Header>
@@ -37,7 +39,39 @@
         </div>
 
         <div class="reset-image">
-            <img src="/IMGS/reset password.png"  style="height: 75%;" alt="A lady signing in on her mobile device ">
+            <img src="./IMGS/reset password.png"  style="height: 75%;" alt="A lady signing in on her mobile device ">
+        </div>
+    </section> -->
+
+
+    <section class="container">
+        <nav class="navbar navbar-expand-lg " style="background-color: white;">
+            <div class="container-fluid">
+              <a class="navbar-brand "  href="/pages/index.html"><img src="/images/Group 6.png"  style="width:200px; "  class="img-fluid"  alt=""></a>
+                            
+            </div>
+          </nav>  
+        <div id="sign-in" class="row" >
+            
+            <div class=" col-sm-6 p-5 details">
+                <form id="sign-in-form" class="form">
+                    <h3>You've been emailed <br> a password reset</h3>
+                    <p class="fs-4">To reset your password, please enter the email address of your Just-Do-It account.<p>
+                    <input 
+                    type="email" 
+                    name="content" 
+                    id="content" 
+                    placeholder="Enter the password sent:">   
+                                  <br>
+                                     
+                    <a href="/pages/sign-in.html" target="_blank"><button type="button"">Sign-in</button></a>
+                     </form> 
+        </div>
+        <div class="col-sm-6 p-5">
+            <div>
+                <img src="/IMGS/reset password.png" class="img-fluid" alt="A lady signing in on her mobile device ">
+               </div>
+        </div>
         </div>
     </section>
 
